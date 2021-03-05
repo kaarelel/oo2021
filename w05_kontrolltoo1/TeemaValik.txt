@@ -1,0 +1,5 @@
+Geomeetriline keskmine
+
+* Koosta funktsioon, mis korrutab parameetritena antud kaks arvu ning võtab neist ruutjuure (Math.sqrt). Katseta.
+* Arve võib olla rohkem, need antakse ette kogumina. Arvud korrutatakse kokku ning võetakse niimitmes juur (astendaja pöördväärtus, Math.pow), kuimitu arvu oli.
+* Failis on viie aasta kohta koefitsiendid, kui palju igal aastal palk muutus. Samuti esimese aasta palk. Väljasta teise faili palk igal aastal neist ning võrdlusena kõrvale palk, kui sama alg- ja lõppsumma juures olnuks koefitsient arvutatud geomeetrilise keskmise abil.
