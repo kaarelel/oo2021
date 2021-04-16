@@ -23,8 +23,8 @@ public class Main {
             while (!game.placeMark(row, column));
             game.changePlayer();
         }
-        while(!game.checkForWin() && !game.isBoardFull());
-        if (game.isBoardFull() && !game.checkForWin())
+        while(!game.checkWinner() && !game.isBoardFull());
+        if (game.isBoardFull() && !game.checkWinner())
         {
             System.out.println("Jäite viiki!");
         }

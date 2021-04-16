@@ -1,3 +1,4 @@
+
 public class TTT {
     private char[][] board;
     private char currentPlayerMark;
@@ -55,7 +56,7 @@ public class TTT {
         return isFull;
     }
 
-    public boolean checkForWin() {
+    public boolean checkWinner() {
         return (checkRowsForWin() || checkColumnsForWin() || checkDiagonalsForWin());
     }
 
